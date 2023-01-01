@@ -7,7 +7,7 @@
 
 	const usp = new URLSearchParams(location.search);
 	
-	const get = (q) => fetch(( usp.get("api") || "https://libsearch-2imy5ahygq-km.a.run.app" ) + "?query=" + encodeURIComponent(q)).then(r => r.json());
+	const get = (q) => fetch(( usp.get("api") || "https://libsearch.x.srg.id.au" ) + "?query=" + encodeURIComponent(q)).then(r => r.json());
 
 	const doSearch = async () => {
 
